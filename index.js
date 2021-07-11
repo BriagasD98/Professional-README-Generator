@@ -23,7 +23,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'projectUsage',
+        name: 'projectInstructions',
         message: 'How do you use your project?'
     },
     {
@@ -56,10 +56,24 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile('./generated/README.md', data, (err) => {
+        // If theres an error, report an error
+        if (err) throw err;
+        console.log('Your README is ready!')
+    });
+};
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then((answers) => {
+        const data = generateMarkdown(answers);
+        // displays answers to questions
+        console.log(answers);
+        //creates the markdown file
+        writeToFile('README.md', data);
+    })
+};
 
 // Function call to initialize app
 init();
