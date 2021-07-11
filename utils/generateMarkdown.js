@@ -33,6 +33,7 @@ function generateMarkdown(data) {
   * [Questions](#Questions)
   <br/>
   <br/>
+
   ## Installation
   ${data.projectInstall}
   <br/>
@@ -55,9 +56,9 @@ function generateMarkdown(data) {
   <br/>
   ## Questions  
   If you have questions about the project you can email me, or you can open an issue in the GitHub repository.
-  My GitHub profile is [${data.projectGitHub}](https://github.com/${data.projectGitHub})  
+  My GitHub profile is [${data.projectGithub}](https://github.com/${data.projectGithub})  
     
-  Email: ${data.userEmail}.  
+  Email: [${data.userEmail}](mailto:${data.userEmail}).  
   `;
   }
   
