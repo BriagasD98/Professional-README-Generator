@@ -25,7 +25,8 @@
   ## Usage
   In the command line, enter "node index.js" to initialize the application. Answer the prompts that follow create your personalized & professional README file!
   For a video walkthrough on how to use the application, follow this link!:
-  
+  https://drive.google.com/file/d/1Kapb-v07_BKfPlBLhMY2uQcZIQ7dCmz6/view
+  <br/>
   <br/>
 ![Screenshot (37)](https://user-images.githubusercontent.com/83102464/125222271-589fcb00-e28f-11eb-89dc-5b8b4676a647.png)
 ![Screenshot (38)](https://user-images.githubusercontent.com/83102464/125222278-5c335200-e28f-11eb-8677-df37fb2d1f82.png)
