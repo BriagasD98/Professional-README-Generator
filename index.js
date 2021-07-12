@@ -23,14 +23,14 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'projectInstructions',
+        name: 'projectUsage',
         message: 'How do you use your project?'
     },
     {
         type: 'list',
         name: 'projectLicense',
         message: 'What kind of license should your project have?',
-        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'] 
+        choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'IBM 1.0', 'Mozilla 2.0', 'None'] 
     },
     {
         type: 'input',

@@ -1,7 +1,9 @@
 
+    undefined
+    
   #  Professional README Generator
   undefined
-  This application generates professional README files for users!
+  This Application generates README files for users using the command line and node js!
   <br/>
   <br/>
   ## Table of Contents
@@ -15,11 +17,11 @@
   <br/>
 
   ## Installation
-  git clone the repo onto your local computer, install npm, and install inquirer.
+  To Install it, you must first clone the repo down to your local computer. The you must have npm installed and install inquirer through the commmand line.
   <br/>
   <br/>
-  ## Instructions
-  Enter "node index.js" into the command line and answer the prompts to generate your personalized README!
+  ## Usage
+  You must enter "node index.js" into the command line while in the projects root directory. Once the application runs, answer the prompts and your personalized README will be created!
   <br/>
   <br/>
   ## License
@@ -27,7 +29,7 @@
   <br/>
   <br/>
   ## Contributing
-  Contact me for how you can contribute!
+  Contact Me for more information on how you can contribute.
   <br/>
   <br/>
   ## Tests
