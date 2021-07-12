@@ -21,7 +21,7 @@ const licenseInfoList = [
     {
       name: "MIT",
       badge:
-        "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]",
+        "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
       link: "https://opensource.org/licenses/MIT",
     },
     {
@@ -70,13 +70,17 @@ const licenseInfoList = [
 // function to generate markdown for README
 function generateMarkdown(data) {
     return `
-    ${renderLicenseBadge(data.license)}
-
+  ${renderLicenseBadge(data.projectLicense)}
+    
   #  ${data.projectTitle}
-  ${data.badge}
+
+  ## Description
+  ${data.projectLicense}
+  <br/>
   ${data.projectDescription}
   <br/>
   <br/>
+
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage](#Usage)
@@ -96,7 +100,8 @@ function generateMarkdown(data) {
   <br/>
   <br/>
   ## License
-  [${data.projectLicense}](${data.licenseURL})
+  For License informoation, visit:
+  [${data.projectLicense}](${renderLicenseLink(data.projectLicense)})
   <br/>
   <br/>
   ## Contributing
@@ -104,7 +109,7 @@ function generateMarkdown(data) {
   <br/>
   <br/>
   ## Tests
-  ${data.projectTest}
+  To run test on the code in the command line, enter " ${data.projectTest} test".
   <br/>
   <br/>
   ## Questions  

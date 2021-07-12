@@ -1,11 +1,15 @@
 
-    undefined
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+    
+  #  Professional README.md Generator
 
-  #  Professional README Generator
-  undefined
-  Generates Professional README files
+  ## Description
+  MIT
+  <br/>
+  This application generates personalized README.md files through the command line based on a user's input!
   <br/>
   <br/>
+
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage](#Usage)
@@ -17,23 +21,24 @@
   <br/>
 
   ## Installation
-  git clone, npm init, install inquirer
+  First, you need to "git clone" the repo onto your local computer. Then you would need to do "npm init" and "npm install inquirer" to make sure you have the dependencies necessary to run the appliction. Make sure you have Node.js installed on your local computer as well!
   <br/>
   <br/>
   ## Usage
-  node index.js then answer the prompts
+  In the command line, enter "node index.js" to initialize the application. Answer the prompts that follow create your personalized & professional README file!
   <br/>
   <br/>
   ## License
-  [MIT](undefined)
+  For License informoation, visit:
+  [MIT](https://opensource.org/licenses/MIT)
   <br/>
   <br/>
   ## Contributing
-  contact me
+  Contact me Via Email or Github for more information on how to contribute!
   <br/>
   <br/>
   ## Tests
-  npm test
+  To run test on the code in the command line, enter " npm test test".
   <br/>
   <br/>
   ## Questions  
