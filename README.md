@@ -25,9 +25,15 @@
   ## Usage
   In the command line, enter "node index.js" to initialize the application. Answer the prompts that follow create your personalized & professional README file!
   <br/>
+![Screenshot (37)](https://user-images.githubusercontent.com/83102464/125222271-589fcb00-e28f-11eb-89dc-5b8b4676a647.png)
+![Screenshot (38)](https://user-images.githubusercontent.com/83102464/125222278-5c335200-e28f-11eb-8677-df37fb2d1f82.png)
+![Screenshot (39)](https://user-images.githubusercontent.com/83102464/125222290-5fc6d900-e28f-11eb-9616-2cda8552bc08.png)
+![Screenshot (40)](https://user-images.githubusercontent.com/83102464/125222298-62c1c980-e28f-11eb-9faf-0a1069fcbc0d.png)
+
   <br/>
+  
   ## License
-  For License informoation, visit:
+  For License information, visit:
   [MIT](https://opensource.org/licenses/MIT)
   <br/>
   <br/>
