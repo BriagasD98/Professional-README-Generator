@@ -52,4 +52,4 @@
   If you have questions about the project you can email me, or you can open an issue in the GitHub repository.
   My GitHub profile is [BriagasD98](https://github.com/BriagasD98)  
     
-  Email: [briagasdavid@yahoo.com](mailto:briagasdavid@yahoo.com).  
+  My Email: [briagasdavid@yahoo.com](mailto:briagasdavid@yahoo.com).  
